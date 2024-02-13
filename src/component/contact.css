@@ -1,0 +1,98 @@
+.section13 {
+    display: flex;
+    max-width: 1440px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-weight: 900;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+    row-gap: 20px;
+    flex-direction: column;
+    padding:20px;
+}
+.dis-123 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: slateblue;
+    padding: 20px;
+}
+.display-123{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    opacity: 70%;
+}
+.email1 {
+    color:red;
+}
+  
+.display-123 .email-1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+.display-123 .email-2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+.display-123 .email-3{
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.email-1 .email1 .icon{
+    font-size: 40px;
+}
+
+.contact img{
+    width: 400px;
+    height: 355px;
+}
+.contact{z-index: 1;}
+.contact-banner-section{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    right: 20px;
+    color: #fff;
+    font-size: 280px;
+    font-weight: 600;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.08);
+    letter-spacing: 5px;
+    display: none;
+}
+@media(max-width:767px){
+    .contact-banner-section{display: block;font-size:50px;text-align:center;left: 0;right: 0;bottom: -133px;}
+    .contact img {width: 354px;height: 288px;}
+    .email-1 .email1 .icon {font-size: 20px;}
+    .email-1 .email1{height:20px;}
+    .display-123 .email-1 {font-size:14px;}
+    .dis-123 {padding:0;}
+}
+@media(max-width:576px){
+    .contact-banner-section{font-size:42px;text-align:center;left: 0;right: 0;bottom: -50px;}
+    .display-123 .email-1 {font-size:10px;}
+    .contact img {width:250px;height:200px;}
+}
+@media(max-width:479px){
+    .contact-banner-section{font-size:32px;text-align:center;left: 0;right: 0;bottom: -226px;}
+    .dis-123 {flex-direction:column;row-gap:20px;}
+}

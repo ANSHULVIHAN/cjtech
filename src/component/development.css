@@ -1,0 +1,88 @@
+.development-section{width:100%;max-width:1440px;box-sizing:border-box;margin:0 auto;padding:20px;}
+.development-section .imagination-section {display: flex;column-gap: 50px;flex: 1;padding:0 0 20px;}
+.imagination-banner-wrap{flex:0 0 40%;}
+.imagination-section .image{display: flex;position: relative;width:100%;height:450px;}
+.imagination-section .image img{width:100%;height:100%;object-fit: contain;transition:.2s all;position: absolute;inset:0px;}
+.imagination-section .image img:hover{transform: rotate(10deg);}
+.imagination-section .content-wrap{flex:1;}
+.workflow-section .workflow-description{font-size: 30px;}
+.imagination-section .content-wrap .heading{font-size:32px;font-weight: 800;}
+.imagination-section .content-wrap .imagination-content{font-size:16px;color: #6c8ba7;padding:10px 0;}
+.development-section .web-success-section {padding:20px 0;text-align:center;}
+.development-section .web-success-section .heading {font-size:42px;color: #000000;font-weight:700;}
+.development-section .web-success-section .heading span {color: red;font-family: cursive;}
+.development-section .web-success-section .sub-heading{font-size:18px;color: red;max-width:700px;margin:auto;padding:0 0 20px;}
+.development-section .web-success-section .btn-wrap{display:flex;justify-content:center;align-items: center;column-gap:20px;}
+.development-section .web-success-section .btn-wrap .contact-btn {border:none; background-color: black;color: white;border-radius: 10px;padding:10px 20px;}
+.development-section .web-success-section .btn-wrap .offer-btn{border:none;  background-color: red;color: white;border-radius: 10px;padding:10px 20px;}
+.development-section .about-content-wrap {padding:20px 0;}
+.development-section .about-content-wrap .heading{font-size:26px;color: red;font-family: cursive;text-align: center;margin:0 0 10px;font-weight:600;line-height:32px;}
+.development-section .about-content-wrap p{margin:0 0 15px;font-size:16px;color: #6c8ba7;}
+.development-section .devlopment-wrap {display: flex;column-gap: 40px;flex-wrap:wrap;padding:20px 0;}
+.development-section .devlopment-wrap .dev-item{border-radius: 10px;padding: 20px;background-color: #f2faff;display: flex;flex-direction: column;row-gap: 20px;width:calc(33.33% - 27px);justify-content:center;align-items: center;transition:.2s all;text-align:center;}
+.development-section .devlopment-wrap .dev-item:hover {border: 3px solid skyblue;}
+.development-section .devlopment-wrap .dev-item .desc {color: #878a95;cursor: pointer;text-align:center;transition:.2s all;}
+.development-section .devlopment-wrap .dev-item .desc:hover {color: skyblue;}
+.development-section .devlopment-wrap .dev-item .title {font-family: cursive;font-size: 22px;font-weight:600;}
+.industry-serve-section {padding:20px 0;text-align:center;}
+.industry-serve-section .serve-heading{font-size: 26px;color: red;font-family: cursive;font-weight:600;line-height: 32px;margin:0 0 15px;}
+.industry-serve-section .serve-desc{font-size: 16px;color: black;padding:0 0 15px;max-width:1200px;margin:auto;}
+.industry-serve-section .industries-wrap{display: flex;gap: 30px;flex-wrap:wrap;}
+.industry-serve-section .industries-wrap .industry{width:calc(33.33% - 20px);}
+.industry-serve-section .industries-wrap .industry {border-radius: 5px;background-color: #f2faff;padding:20px;transition:.2s all;cursor: pointer;}
+.industry-serve-section .industries-wrap .industry:hover {color: skyblue;border: 3px solid skyblue;}
+.industry-serve-section .industries-wrap .industry .title{font-size:16px;font-family:cursive;font-weight:600;}
+.development-section .special-technologies {padding:20px 0;text-align:center;}
+.special-technologies .heading{font-size:26px;color: red;font-family: cursive;text-align: center;margin:0 0 10px;font-weight:600;line-height:32px;}
+.special-technologies .sub-heading{margin:0 0 15px;}
+.technologies-wrap{display:flex;flex-wrap:wrap;gap:30px;}
+.technologies-wrap .technology{width:calc(25% - 23px);padding:25px 20px;color: white;border-radius: 10px;cursor: pointer;background-color: skyblue;}
+.technologies-wrap .technology .tech-img{position: relative;width:65px;height:65px;background-color: #f2f1fa;display: flex;align-items: center;justify-content: center;margin:auto;border-radius:50%;}
+.technologies-wrap .technology .tech-img img{position: absolute;width:100%;height:100%;padding:10px;}
+.technologies-wrap .technology .tech-info .title{color:#fff;font-size:18px;margin:10px 0;}
+.technologies-wrap .technology .tech-info:hover {color: black;}
+
+
+@media(max-width:991px){
+  .development-section .web-success-section .heading {font-size:38px;}
+  .development-section .devlopment-wrap {column-gap:20px;}
+  .development-section .devlopment-wrap .dev-item{row-gap:10px;width:calc(33.33% - 14px);}
+  .development-section .devlopment-wrap .dev-item .desc {font-size:15px;}
+  .development-section .devlopment-wrap .dev-item .title {font-size:18px;}
+  .technologies-wrap .technology{width:calc(33.33% - 20px);padding:25px 20px;}
+
+}
+@media(max-width:767px){
+  .development-section .imagination-section {flex-direction:column-reverse;}
+  .imagination-section .content-wrap .heading{font-size:24px;}
+  .imagination-section .content-wrap .imagination-content{font-size:14px;line-height:24px;}
+  .development-section .web-success-section .heading {font-size:32px;}
+  .development-section .web-success-section .sub-heading{font-size:16px;}
+  .development-section .about-content-wrap .heading{font-size:24px;line-height:32px;}
+  .development-section .about-content-wrap p{margin:0 0 10px;font-size:14px;}
+  .development-section .devlopment-wrap{gap:20px;}
+  .development-section .devlopment-wrap .dev-item{row-gap:10px;width:calc(50% - 10px);}
+  .industry-serve-section .serve-heading{font-size: 24px;margin:0 0 10px;}
+  .industry-serve-section .serve-desc{font-size:14px;}
+  .industry-serve-section .industries-wrap .industry{width:calc(50% - 15px);}
+  .special-technologies .heading{font-size:24px;}
+  .technologies-wrap .technology{width:calc(50% - 20px);padding:25px 20px;}
+  .technologies-wrap .technology .tech-info .about{font-size:14px;}
+  .technologies-wrap .technology .tech-info .title{font-size:16px;}
+
+}
+@media(max-width:479px){
+  .imagination-section .content-wrap .heading{font-size:18px;}
+  .imagination-section .image{height:350px;}
+  .development-section .web-success-section .heading {font-size:24px;}
+  .development-section .web-success-section .sub-heading{font-size:14px;padding:0 0 10px;}
+  .development-section .about-content-wrap .heading{font-size:18px;line-height:24px;}
+  .development-section .devlopment-wrap .dev-item{row-gap:10px;width:100%;}
+  .development-section .devlopment-wrap .dev-item .desc {font-size:14px;}
+  .industry-serve-section .serve-heading{font-size:18px;margin:0 0 10px;}
+  .industry-serve-section .industries-wrap{gap:15px;}
+  .industry-serve-section .industries-wrap .industry{width:100%;}
+  .special-technologies .heading{font-size:18px;line-height:24px;}
+  .technologies-wrap .technology{width:100%;padding:25px 20px;}
+
+}
